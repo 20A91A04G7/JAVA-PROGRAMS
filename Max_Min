@@ -1,0 +1,24 @@
+# JAVA-PROGRAMS
+package Numbers;
+import java.util.*;
+public class Max_Min {
+	public static void main(String[] args) {
+	Scanner sc = new Scanner(System.in);
+	System.out.println("enter a number: ");
+	int n = sc.nextInt();
+	int rem =0,min=0,max=0;
+	while (n!=0)
+	{
+		rem=n%10;
+		
+		if(rem>max)
+			max = rem;
+		else
+			min = rem;
+		
+		n=n/10;
+	}
+     System.out.println("maximum digit = "+max);
+     System.out.println("minimum digit = "+min);
+
+}}

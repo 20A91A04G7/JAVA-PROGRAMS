@@ -1,0 +1,22 @@
+# JAVA-PROGRAMS
+package Numbers;
+import java.util.*;
+
+public class Area_quad {
+
+	public static void main(String[] args) {
+		Scanner obj = new Scanner(System.in);
+		System.out.println("enter values for ab,bc,cd,da");
+		int ab = obj.nextInt();
+		int bc = obj.nextInt();
+		int cd = obj.nextInt();
+		int da = obj.nextInt();
+		float area=0;
+		area = ((ab*bc)+(cd*da))/2;
+		System.out.println("area of quad= " +area +"sq.units");
+}
+
+
+	}
+
+

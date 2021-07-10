@@ -1,0 +1,19 @@
+# JAVA-PROGRAMS
+package Patterns;
+
+public class File10 {
+
+	public static void main(String[] args) {
+		for(int i=1;i<=5;i++)
+		{
+			for(char j='E';j>='A';j--)
+			{
+				System.out.println(j+" ");
+			}
+			System.out.println();
+		
+
+	}
+
+}
+}

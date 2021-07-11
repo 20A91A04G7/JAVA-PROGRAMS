@@ -8,7 +8,7 @@ public class File8 {
 		{
 			for(char j='A';j<='E';j++)
 			{
-				System.out.println(j);
+				System.out.print(j);
 			}
 			System.out.println();
 		}
